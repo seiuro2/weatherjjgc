@@ -1,0 +1,99 @@
+body {
+    width: 98.9vw;
+    height: 100vh;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.container1 {
+    width: 100%;
+    border-radius: 15px;
+}
+
+.row {
+    padding: 38px;
+}
+
+.weatherCard {
+    height: 100%;
+}
+
+.generalCont {
+    display: flex;
+}
+
+.bogota {
+    padding: 10px;
+    width: 40% !important;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.paris {
+    padding: 10px;
+    width: 40% !important;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.iconLine {
+    padding-bottom: 10px;
+}
+
+.iconLine span {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    color: rgb(202, 187, 51);
+}
+
+.bogota3Dias {
+    padding: 10px;
+    width: 40% !important;
+    height: 100%;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    background-color: #f7f7f7;
+}
+
+.bgImg {
+    width: 40% !important;
+    background-image: url('../img/Recurso\ 2@3x@4x.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+}
+
+.bgImg h1 {
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
+
+@media (max-width: 700px) {
+    body {
+        height: auto;
+    }
+    .row {
+        display: flex !important;
+        flex-direction: column !important;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0 !important;
+    }
+    .parisContent {
+        display: flex;
+        width: 100%;
+        justify-content: start;
+        align-items: flex-start;
+    }
+    .bogota {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto !important;
+    }
+}
